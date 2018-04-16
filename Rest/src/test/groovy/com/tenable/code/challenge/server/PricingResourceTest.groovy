@@ -1,4 +1,6 @@
 package com.tenable.code.challenge.server
 
-class PricingResourceTest {
+import spock.lang.Specification
+
+class PricingResourceTest extends Specification {
 }

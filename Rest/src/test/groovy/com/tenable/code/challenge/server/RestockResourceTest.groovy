@@ -1,4 +1,6 @@
 package com.tenable.code.challenge.server
 
-class RestockResourceTest {
+import spock.lang.Specification
+
+class RestockResourceTest extends Specification{
 }
