@@ -11,7 +11,7 @@ import javax.ws.rs.core.Response;
 public class ExclusivityResource {
 
     @GET
-    @Path("/kitExclusivity")
+    @Path("/kitexclusivity")
     @Produces(MediaType.APPLICATION_JSON)
     public Response exclusivity(@QueryParam("query") String query,
                               @QueryParam("fromDate") String fromDate,

@@ -11,7 +11,7 @@ import javax.ws.rs.core.Response;
 public class PricingResource {
 
     @GET
-    @Path("/kitPricing")
+    @Path("/kitpricing")
     @Produces(MediaType.APPLICATION_JSON)
     public Response exclusivity(@QueryParam("query") String query,
                                 @QueryParam("fromDate") String fromDate,

@@ -11,7 +11,7 @@ import javax.ws.rs.core.Response;
 @Path("/restock")
 public class RestockResource {
     @GET
-    @Path("/kitRestock")
+    @Path("/kitrestock")
     @Produces(MediaType.APPLICATION_JSON)
     public Response restock(@QueryParam("query") String query,
                                 @QueryParam("fromDate") String fromDate,

@@ -11,7 +11,7 @@ import javax.ws.rs.core.Response;
 public class CustomizationResource {
 
     @GET
-    @Path("/kitCustomizer")
+    @Path("/kitcustomizer")
     @Produces(MediaType.APPLICATION_JSON)
     public Response customize(@QueryParam("query") String query,
                              @QueryParam("fromDate") String fromDate,
