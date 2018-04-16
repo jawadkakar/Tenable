@@ -37,7 +37,6 @@ public class CustomizationResource {
                               @QueryParam("latitude") String latitude,
                               @QueryParam("longitude") String longitude
     ) {
-        System.out.println("Hello");
         /** Create a Kit from Rest parameters**/
         Kit kit = KitMaker.kitMaker(id, name, basePrice, bodyKit, engine, fourWheels, color, finish, isDefaultParts, latitude, longitude);
         Kit kitCust = customization.customize(kit);
