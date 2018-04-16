@@ -6,7 +6,7 @@ import com.tenable.code.challenge.common.model.Kit;
 public class ExclusivityService implements IExclusivity {
     @Override
     public Kit exclusive(Kit kit) {
-        kit.setCustomDescription("Exclusive Arrg.");
+        kit.setDescription("Exclusive Arrg.");
         return kit;
     }
 }

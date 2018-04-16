@@ -6,7 +6,7 @@ import com.tenable.code.challenge.common.model.Kit;
 public class PricingService implements IPrice{
     @Override
     public Kit changePrice(Kit kit) {
-        kit.setCustomDescription("Kit price was changed successfully");
+        kit.setDescription("Kit price was changed successfully");
         return kit;
     }
 }

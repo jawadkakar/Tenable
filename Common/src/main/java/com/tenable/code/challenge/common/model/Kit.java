@@ -1,7 +1,7 @@
 package com.tenable.code.challenge.common.model;
 
 public class Kit {
-    private String customDescription;
+    private String description;
     private String id;
     private String name;
     private double basePrice;
@@ -13,8 +13,8 @@ public class Kit {
     private boolean isDefaultParts;
     private Location location;
 
-    public Kit(String customDescription, String id, String name, double basePrice, String bodyKit, String engine, String fourWheels, String color, String finish, boolean isDefaultParts, Location location) {
-        this.customDescription = customDescription;
+    public Kit(String description, String id, String name, double basePrice, String bodyKit, String engine, String fourWheels, String color, String finish, boolean isDefaultParts, Location location) {
+        this.description = description;
         this.id = id;
         this.name = name;
         this.basePrice = basePrice;
@@ -27,7 +27,7 @@ public class Kit {
         this.location = location;
     }
 
-    public void setCustomDescription(String customDescription) {
-        this.customDescription = customDescription;
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

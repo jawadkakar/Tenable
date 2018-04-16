@@ -6,7 +6,7 @@ import com.tenable.code.challenge.common.model.Kit;
 public class KitCustomizerService implements ICustomization {
     @Override
     public Kit customize(Kit kit) {
-       kit.setCustomDescription("This Kit has been customized");
+       kit.setDescription("This Kit has been customized");
        return kit;
     }
 }
