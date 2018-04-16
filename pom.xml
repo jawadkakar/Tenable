@@ -38,5 +38,8 @@
     <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
         <google.guice.version>4.0</google.guice.version>
+        <jersey.version>2.26</jersey.version>
+        <google.guava.version>23.4-jre</google.guava.version>
+        <fastjson.boon.version>0.23</fastjson.boon.version>
     </properties>
 </project>
