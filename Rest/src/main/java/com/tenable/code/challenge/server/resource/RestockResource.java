@@ -19,7 +19,7 @@ public class RestockResource {
                                 @QueryParam("ToDate") String toDate,
                                 @QueryParam("ToTime") String toTime) {
 
-        return null;
+        return Response.status(200).entity("RestockResource").build();
 
     }
 }

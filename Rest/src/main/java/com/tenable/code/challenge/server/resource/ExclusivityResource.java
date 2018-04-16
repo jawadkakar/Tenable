@@ -19,7 +19,7 @@ public class ExclusivityResource {
                               @QueryParam("ToDate") String toDate,
                               @QueryParam("ToTime") String toTime) {
 
-        return null;
+        return Response.status(200).entity("ExclusivityResource").build();
 
     }
 }
