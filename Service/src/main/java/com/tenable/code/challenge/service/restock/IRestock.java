@@ -4,5 +4,5 @@ import com.tenable.code.challenge.model.Kit;
 
 public interface IRestock {
 
-    void restock(Kit kit);
+    Kit restock(Kit kit);
 }

@@ -4,7 +4,7 @@ import com.tenable.code.challenge.model.Kit;
 
 public interface IPrice {
 
-    boolean changePrice(Kit kit);
+    Kit changePrice(Kit kit);
 
 
 }

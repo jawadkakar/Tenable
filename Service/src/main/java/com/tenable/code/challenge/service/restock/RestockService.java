@@ -4,7 +4,8 @@ import com.tenable.code.challenge.model.Kit;
 
 public class RestockService implements IRestock {
     @Override
-    public void restock(Kit kit) {
-        System.out.println("Kit restock was completed successfully");
+    public Kit restock(Kit kit) {
+        kit.setCustomDescription("Kit restock was completed successfully");
+        return kit;
     }
 }

@@ -4,9 +4,8 @@ import com.tenable.code.challenge.model.Kit;
 
 public class PricingService implements IPrice{
     @Override
-    public boolean changePrice(Kit kit) {
-        boolean result = false;
-        System.out.println("Kit price was changed successfully");
-        return result;
+    public Kit changePrice(Kit kit) {
+        kit.setCustomDescription("Kit price was changed successfully");
+        return kit;
     }
 }

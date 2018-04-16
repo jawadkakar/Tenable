@@ -1,6 +1,8 @@
 package com.tenable.code.challenge.service.exclusivity;
 
+import com.tenable.code.challenge.model.Kit;
+
 public interface IExclusivity {
 
-    public void exclusive();
+    Kit exclusive(Kit kit);
 }
