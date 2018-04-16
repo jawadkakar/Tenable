@@ -21,6 +21,18 @@
             <artifactId>guice</artifactId>
             <version>${google.guice.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.spockframework</groupId>
+            <artifactId>spock-core</artifactId>
+            <version>${spoke.core.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>${groovy.all.verion}</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -42,5 +54,7 @@
         <jersey.version>2.26</jersey.version>
         <google.guava.version>23.4-jre</google.guava.version>
         <fastjson.boon.version>0.23</fastjson.boon.version>
+        <spoke.core.version>1.0-groovy-2.4</spoke.core.version>
+        <groovy.all.verion>2.4.12</groovy.all.verion>
     </properties>
 </project>
