@@ -1,6 +1,7 @@
 package com.tenable.code.challenge.service.restock;
 
-import com.tenable.code.challenge.model.Kit;
+
+import com.tenable.code.challenge.common.model.Kit;
 
 public class RestockService implements IRestock {
     @Override

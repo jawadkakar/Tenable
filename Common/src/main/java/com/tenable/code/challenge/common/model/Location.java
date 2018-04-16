@@ -1,4 +1,4 @@
-package com.tenable.code.challenge.model;
+package com.tenable.code.challenge.common.model;
 
 public class Location {
     private double latitude;

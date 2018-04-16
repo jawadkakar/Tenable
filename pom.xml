@@ -12,6 +12,7 @@
     <modules>
         <module>Rest</module>
         <module>Service</module>
+        <module>Common</module>
     </modules>
 
     <dependencies>

@@ -2,9 +2,7 @@ package com.tenable.code.challenge.server.resource;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
-import com.sun.org.apache.xpath.internal.operations.Bool;
-import com.tenable.code.challenge.model.Kit;
-import com.tenable.code.challenge.model.Location;
+
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -14,6 +12,8 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.Optional;
 
+import com.tenable.code.challenge.common.model.Kit;
+import com.tenable.code.challenge.common.model.Location;
 import com.tenable.code.challenge.service.customization.CustomizationModule;
 import com.tenable.code.challenge.service.customization.ICustomization;
 import org.boon.json.JsonFactory;

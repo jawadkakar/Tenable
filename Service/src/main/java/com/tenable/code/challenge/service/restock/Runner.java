@@ -2,7 +2,6 @@ package com.tenable.code.challenge.service.restock;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
-import com.tenable.code.challenge.model.Kit;
 
 public class Runner {
     public static void main(String[] args) {

@@ -72,6 +72,11 @@
             <artifactId>boon</artifactId>
             <version>${fastjson.boon.version}</version>
         </dependency>
+        <dependency>
+            <groupId>tenable</groupId>
+            <artifactId>tenable.common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
 
     </dependencies>
